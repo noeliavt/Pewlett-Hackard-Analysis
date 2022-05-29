@@ -31,6 +31,7 @@ ORDER BY COUNT(*) DESC;
 
 SELECT * FROM public.retiring_titles
 
+
 --Deliverable 2: The Employees Eligible for the Mentorship Program
 SELECT DISTINCT ON (t.emp_no) t.emp_no, e.first_name, e.last_name, e.birth_date,de.from_date, de.to_date, t.title
 INTO mentorship_eligibilty
@@ -43,4 +44,7 @@ AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY t.emp_no;
 
 SELECT *
+FROM public.mentorship_eligibilty
+
+SELECT count(*) 
 FROM public.mentorship_eligibilty

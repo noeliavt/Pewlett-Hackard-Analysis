@@ -7,18 +7,21 @@
   
 ## 2. Pewlett-Hackard Results
 
-**Total Employees:** 300,024 
+** Total Employees:** 300,024 
 
-**Number of employees by their most recent job title who are about to retire:** 72458, From the 100% of eligible for retirement were 
+** Number of employees by their most recent job title who are about to retire:** 72458, From the 100% of eligible for retirement were 
 * Senior Engineer: 35.77%  
 * Senior Staff: 34.40% 
 * Engineers: 12.81%
 * Staff :10.54% 
 * Technique Leader: 4.97% 
 * Assitant Engineer: 1.5% 
+
 Table below shows the number for each of these titles:
 
-[ Pewlett Hackard Results](election_analysis.txt)
+<p align="center">
+  <img src="Retiring_Titles.png">
+</p>
 
 **Number of Employees Eligible for the Mentorship Program:** 1549
 
